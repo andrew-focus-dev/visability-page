@@ -23,7 +23,11 @@
 
   &-image {
     img {
-      max-width: 800px;
+      max-width: 720px;
     }
+  }
+
+  .about-image.about-image--mobile {
+    display: none;
   }
 }

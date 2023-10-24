@@ -10,6 +10,7 @@
 
   &-copy {
     font-size: 18px;
+    font-weight: 300;
   }
 
   &-links {
@@ -24,6 +25,7 @@
     display: flex;
     justify-content: center;
     transition: width 0.3s;
+    font-weight: 300;
 
     &:before {
       content: '';

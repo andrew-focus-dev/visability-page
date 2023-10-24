@@ -11,6 +11,8 @@
   }
 
   .current-navigation {
+    width: 1160px;
+    margin: 0 auto;
     justify-content: end;
   }
 }
@@ -27,11 +29,19 @@
   .current-swiper {
     max-width: 1000px;
   }
+
+  .current-navigation {
+    width: 1000px;
+  }
 }
 
 @media (max-width: 1050px) {
   .current-swiper {
     max-width: 850px;
+  }
+
+  .current-navigation {
+    width: 850px;
   }
 }
 
@@ -39,11 +49,19 @@
   .current-swiper {
     max-width: 710px;
   }
+
+  .current-navigation {
+    width: 710px;
+  }
 }
 
 @media (max-width: 750px) {
   .current-swiper {
     max-width: 550px;
+  }
+
+  .current-navigation {
+    width: 550px;
   }
 
   .current {
@@ -54,6 +72,14 @@
 @media (max-width: 590px) {
   .current-swiper {
     max-width: 470px;
+  }
+
+  .current-navigation {
+    width: 470px;
+
+    img {
+      width: 40px;
+    }
   }
 
   .current-slide {
@@ -78,6 +104,10 @@
     max-width: 370px;
   }
 
+  .current-navigation {
+    width: 370px;
+  }
+
   .current .title {
     font-size: 40px;
   }
@@ -90,6 +120,10 @@
 @media (max-width: 400px) {
   .current-swiper {
     max-width: 290px;
+  }
+
+  .current-navigation {
+    width: 290px;
   }
 
   .current-slide {

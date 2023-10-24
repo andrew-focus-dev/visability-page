@@ -1,6 +1,7 @@
 @media (max-width: 600px) {
   .give {
     padding: 60px 0;
+
     .title {
       font-size: 44px;
       line-height: 50px;
@@ -13,16 +14,26 @@
   }
 }
 
+@media (max-width: 500px) {
+  .give .title {
+    margin-bottom: 40px;
+
+    .column {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .give-text {
+    display: none;
+  }
+}
+
 @media (max-width: 470px) {
   .give {
     padding: 30px 0;
     .title {
       font-size: 35px;
       line-height: 40px;
-    }
-
-    &-text {
-      font-size: 17px;
     }
   }
 }
@@ -32,11 +43,6 @@
     .title {
       font-size: 29px;
       line-height: 30px;
-    }
-
-    &-text {
-      font-size: 16px;
-      margin-bottom: 35px;
     }
 
     .btn {

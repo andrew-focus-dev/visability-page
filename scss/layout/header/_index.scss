@@ -1,5 +1,5 @@
 .header {
-  padding: 27px 0;
+  padding: 15px 0;
   position: sticky;
   top: 0;
   left: 0;
@@ -22,7 +22,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     transition: margin-bottom 0.3s;
   }
 
@@ -30,6 +30,11 @@
     display: flex;
     align-items: center;
     gap: 30px;
+  }
+
+  .btn {
+    font-size: 15px;
+    padding: 5px 30px;
   }
 
   &-select {

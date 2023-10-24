@@ -49,6 +49,10 @@
 
     .btn {
       grid-column: 1 / 3;
+      width: max-content;
+      margin-top: 10px;
+      margin-right: auto;
+      padding: 10px 45px;
     }
   }
 }
@@ -58,5 +62,10 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+
+  .donate-form .form-input,
+  .donate-form .form-select select {
+    padding-left: 20px;
   }
 }

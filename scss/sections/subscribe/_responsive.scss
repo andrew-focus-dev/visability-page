@@ -28,5 +28,11 @@
 @media (max-width: 530px) {
   .subscribe-form {
     grid-template-columns: 1fr;
+
+    .btn {
+      width: max-content;
+      margin: 0 auto;
+      padding: 10px 45px;
+    }
   }
 }

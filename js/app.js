@@ -2,6 +2,7 @@ new Swiper('.swiper', {
   slidesPerView: 2,
   spaceBetween: 40,
   slidesPerGroup: 2,
+  loop: true,
   navigation: {
     nextEl: '.current-button-next',
     prevEl: '.current-button-prev',

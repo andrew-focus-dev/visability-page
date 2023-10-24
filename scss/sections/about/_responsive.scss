@@ -44,11 +44,17 @@
     gap: 20px;
   }
 
+  .about .about-image.about-image--mobile {
+    display: block;
+    margin-bottom: 20px;
+  }
+
   .about-description {
     margin-bottom: 25px;
   }
 
   .about-image {
     grid-row: 1;
+    display: none;
   }
 }

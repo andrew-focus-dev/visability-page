@@ -3,12 +3,13 @@
   justify-content: space-between;
 
   &-link {
-    font-size: 25px;
+    font-size: 20px;
     color: #000;
     position: relative;
     display: flex;
     justify-content: center;
     transition: width 0.3s;
+    font-weight: 300;
 
     &:before {
       content: '';
