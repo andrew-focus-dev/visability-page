@@ -1,0 +1,29 @@
+.about {
+  background-color: #f5f1ed;
+  padding: 20px 0 90px;
+  overflow: hidden;
+
+  &-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 70px;
+  }
+
+  .title {
+    margin-bottom: 30px;
+  }
+
+  &-description {
+    font-size: 22px;
+    line-height: 1.9;
+    font-weight: 300;
+    margin-bottom: 60px;
+  }
+
+  &-image {
+    img {
+      max-width: 800px;
+    }
+  }
+}

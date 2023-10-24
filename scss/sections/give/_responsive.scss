@@ -1,0 +1,49 @@
+@media (max-width: 600px) {
+  .give {
+    padding: 60px 0;
+    .title {
+      font-size: 44px;
+      line-height: 50px;
+      margin-bottom: 20px;
+    }
+
+    &-text {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 470px) {
+  .give {
+    padding: 30px 0;
+    .title {
+      font-size: 35px;
+      line-height: 40px;
+    }
+
+    &-text {
+      font-size: 17px;
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  .give {
+    .title {
+      font-size: 29px;
+      line-height: 30px;
+    }
+
+    &-text {
+      font-size: 16px;
+      margin-bottom: 35px;
+    }
+
+    .btn {
+      &.btn--large {
+        padding: 7px 20px;
+        font-size: 14px;
+      }
+    }
+  }
+}

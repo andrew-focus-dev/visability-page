@@ -1,0 +1,98 @@
+@media (max-width: 1480px) {
+  .current-swiper {
+    max-width: 1160px;
+  }
+}
+
+@media (max-width: 1360px) {
+  .current-row {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .current-navigation {
+    justify-content: end;
+  }
+}
+
+@media (max-width: 1220px) {
+  .current-description {
+    margin-bottom: 45px;
+  }
+
+  .current .title {
+    margin-bottom: 10px;
+  }
+
+  .current-swiper {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .current-swiper {
+    max-width: 850px;
+  }
+}
+
+@media (max-width: 900px) {
+  .current-swiper {
+    max-width: 710px;
+  }
+}
+
+@media (max-width: 750px) {
+  .current-swiper {
+    max-width: 550px;
+  }
+
+  .current {
+    padding: 30px 0;
+  }
+}
+
+@media (max-width: 590px) {
+  .current-swiper {
+    max-width: 470px;
+  }
+
+  .current-slide {
+    .btn {
+      padding: 8px 20px;
+      font-size: 15px;
+    }
+
+    .slide-title {
+      font-size: 25px;
+      margin-bottom: 15px;
+    }
+
+    .slide-description {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 520px) {
+  .current-swiper {
+    max-width: 370px;
+  }
+
+  .current .title {
+    font-size: 40px;
+  }
+
+  .current-description {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .current-swiper {
+    max-width: 290px;
+  }
+
+  .current-slide {
+    padding: 25px 20px;
+  }
+}

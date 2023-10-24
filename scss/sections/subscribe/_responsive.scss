@@ -1,0 +1,32 @@
+@media (max-width: 1220px) {
+  .subscribe-title {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 990px) {
+  .subscribe-title {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 860px) {
+  .subscribe {
+    padding: 30px 0;
+  }
+
+  .subscribe-row {
+    gap: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .subscribe-title {
+    justify-self: center;
+  }
+}
+
+@media (max-width: 530px) {
+  .subscribe-form {
+    grid-template-columns: 1fr;
+  }
+}
