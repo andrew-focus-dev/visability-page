@@ -13,6 +13,10 @@
 
 select {
   color: black;
+  -webkit-font-smoothing: antialised;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 * {
