@@ -6,7 +6,8 @@
 
 @media (max-width: 1360px) {
   .current-row {
-    grid-template-columns: 1fr;
+    // grid-template-columns: 1fr;
+    flex-direction: column;
     gap: 30px;
   }
 
