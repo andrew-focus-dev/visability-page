@@ -52,18 +52,33 @@
     align-items: center;
     padding-right: 15px;
     grid-area: select;
+    height: 34px;
 
     select {
       font-size: 20px;
-      height: 34px;
       outline: none;
       border: none;
       color: #679d98;
       padding: 0 10px;
+      padding-right: 25px;
 
       &:hover {
         cursor: pointer;
       }
+    }
+
+    &:before {
+      content: '';
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      right: 17px;
+      top: 12px;
+      background-image: url('../img/select-arrow.png');
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      z-index: -1;
     }
   }
 
