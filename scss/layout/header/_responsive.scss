@@ -19,7 +19,11 @@
   }
 }
 
-@media (max-width: 930px) {
+@media (max-width: 1115px) {
+  .header.header--sticky .navbar-link {
+    font-size: 18px;
+  }
+
   .header {
     padding: 10px 0;
 
@@ -92,6 +96,7 @@
       }
 
       .navbar {
+        margin-top: 0;
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -101,7 +106,22 @@
         background-color: #fff;
         width: 100%;
         padding: 20px 10px 60px;
+        top: 55px;
       }
     }
+  }
+}
+
+@media (max-width: 420px) {
+  .header .header-logo img {
+    width: 140px;
+  }
+
+  .header.header--sticky .header-row {
+    gap: 0;
+  }
+
+  .header .header-row .navbar {
+    top: 50px;
   }
 }

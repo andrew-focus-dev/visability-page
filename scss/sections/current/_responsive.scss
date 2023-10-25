@@ -119,14 +119,34 @@
 
 @media (max-width: 400px) {
   .current-swiper {
-    max-width: 290px;
+    max-width: 330px;
   }
 
   .current-navigation {
-    width: 290px;
+    width: 330px;
   }
 
   .current-slide {
     padding: 25px 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .current-swiper {
+    max-width: 315px;
+  }
+
+  .current-navigation {
+    width: 315px;
+  }
+}
+
+@media (max-width: 345px) {
+  .current-swiper {
+    max-width: 300px;
+  }
+
+  .current-navigation {
+    width: 300px;
   }
 }

@@ -1,0 +1,11 @@
+@media (max-width: 1430px) {
+  .header.header--sticky .navbar-link {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1230px) {
+  .header.header--sticky .header-row {
+    gap: 30px;
+  }
+}

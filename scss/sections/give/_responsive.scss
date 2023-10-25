@@ -1,15 +1,34 @@
 @media (max-width: 600px) {
   .give {
     padding: 60px 0;
+    position: relative;
 
     .title {
       font-size: 44px;
       line-height: 50px;
+      position: relative;
       margin-bottom: 20px;
+      z-index: 2;
     }
 
     &-text {
       font-size: 20px;
+    }
+
+    .btn {
+      z-index: 2;
+      position: relative;
+    }
+
+    &:before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 1;
     }
   }
 }
